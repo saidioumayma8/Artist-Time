@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    margin-top: 85%;
+}
+header{
+    height: 136px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.pargraphe .Testimonials {
+    margin-top: 100%;
+    width: 467px;
+    height: 108px;
+    color: #FFF;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    
+}
+section{
+    
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+}
+.container-contact1{
+    margin-top: 190px;
+    width: 727px;
+    height: 700px;
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: -40%;
+    
+
+}
+.contact1{
+   margin-left: 230px;
+   color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+
+}
+.name{
+    height: 100px;
+    width: 100%;
+    margin-bottom:40px;
+    }
+    .name p{
+        color: #FFF;
+    font-family: Inter;
+    font-size: 38.027px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-transform: capitalize;
+    
+    }
+    .name input{
+        width: 727px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #FFF;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        color: #BBB;
+    font-family: Inter;
+    font-size: 21.245px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-transform: capitalize;
+    outline: none;
+    }
+    
+    .message{
+        width: 100px;
+        height: 200px;
+    
+    }
+    .message p{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 38.027px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        text-transform: capitalize;
+    }
+    .message input{
+        width: 727px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #FFF;
+        padding-bottom: 110px;
+        margin-top: 10px;
+        color: #BBB;
+    font-family: Inter;
+    font-size: 21.245px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-transform: capitalize;
+    outline: none;
+    }
+    button{
+        margin-top: 70px;
+        height: 60px;
+        width: 160px;
+        border-radius: 0%;
+        border: none;
+        color: #000;
+    font-family: Inter;
+    font-size: 32.638px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    }
+    .Company1{
+      margin-top: 200px;
+        color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.696px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+  
+   
+    }
+    .Privacy2{
+        display: inline-block;
+        color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.696px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 30px;
+    width: 100%;
+    margin-top: 450%;
+    margin-left: 270%;
+    
+    }
+    .Terms3{
+        
+        color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.696px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20px;
+ 
+    }
+    .toto {
+        position: absolute;
+        left: 109px;
+        top: 200px;
+        width: 679px;
+        height: 158px;
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .hero {
+       
+        width: auto;
+    }
+    .link-header {
+        margin-right: 84px;
+        width: 515px;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .link a {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .title {
+        margin-left: 93px;
+        width: 58;
+        height: 24;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .send:hover{
+
+        animation-name: wtf;
+        animation-duration: 5s;
+        
+        animation-direction: alternate;
+    animation-iteration-count:infinite ;
+    animation-timing-function: linear;
+
+    }
+    @keyframes wtf{
+        form{
+            rotate : 0 0 1 0deg;
+        }
+        to{
+            rotate : 0 0 1 800deg;
+        }
+    }
